@@ -1,3 +1,5 @@
+/// 967. Numbers With Same Consecutive Differences
+
 class Solution {
 
     public int[] numsSameConsecDiff(int N, int K) {

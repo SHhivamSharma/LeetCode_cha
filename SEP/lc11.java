@@ -14,7 +14,7 @@ class Solution {
         PriorityQueue<Integer> speedQueue = new PriorityQueue<>(k);
         long teamPerformance = 0, teamSpeed = 0;
 
-        for (int i=0; i<n; i++) {
+ for (int i=0; i<n; i++) {
 			// This is because a team can have atmost `k` players.
             if (speedQueue.size() >= k) {
                 teamSpeed -= speedQueue.remove();

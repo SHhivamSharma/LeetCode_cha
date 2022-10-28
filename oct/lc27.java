@@ -28,4 +28,13 @@ class Solution {
 
         return maxOverlaps;
     }
+    public int length(int[][] B_padded){
+        int m = 0 , n = 0  ;
+        m = B_padded[0].length();
+        n = B_padded.length();
+        int omax = Math.max(m,n);
+        
+        return 
+
+    }
 }
